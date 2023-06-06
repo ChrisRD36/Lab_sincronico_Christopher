@@ -4,7 +4,7 @@ pipeline { //Pipeline declarativo
     stages {
         stage('Imprimir Hola Mundo'){
             steps {
-                bat "lab_sincronico.py"
+                sh "lab_sincronico.py"
             }
 
         }
