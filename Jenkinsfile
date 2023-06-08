@@ -4,7 +4,7 @@ pipeline { //Pipeline declarativo
     stages {
         stage('Imprimir Hola Mundo'){
             steps {
-                sh "python 3 lab_sincronico.py"
+                sh "python3 lab_sincronico.py"
             }
 
         }
